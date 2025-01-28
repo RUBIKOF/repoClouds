@@ -1,4 +1,4 @@
-package com.example
+package rbkcloudstream
 
 
 import com.fasterxml.jackson.annotation.JsonProperty
