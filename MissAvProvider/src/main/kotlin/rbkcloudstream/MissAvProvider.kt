@@ -143,7 +143,7 @@ class MissAvProvider : MainAPI() {
         val type = "NFSW"
         var test =""
         val code = url.substringAfter("/en/").substringBefore("/")
-        val poster = "https://fivetiu.com/" + code + "/cover-n.jpg"
+        val poster = "https://fourhoi.com/" + code + "/cover-n.jpg"
 
         val description = doc.selectFirst(".mb-1")?.text()
 
@@ -318,7 +318,7 @@ class MissAvProvider : MainAPI() {
        var value =""
        var check =""
        var text = app.get(data).document.selectFirst("body").toString()
-       val pattern = "https:\\\\/\\\\/sixyik\\.com\\\\/([^\"]+)\\\\/seek".toRegex()
+       val pattern = "https:\\\\/\\\\/nineyu\\.com\\\\/([^\"]+)\\\\/seek".toRegex()
        val matchResult = pattern.find(text)
        if (matchResult != null) {
            value = matchResult.groupValues[1]
